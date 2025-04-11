@@ -1,0 +1,72 @@
+.header-wraper {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightblue;
+  padding: 15px;
+}
+.ul-navigation {
+  display: flex;
+  width: 300px;
+  background-color: yellow;
+  justify-content: space-between;
+}
+.header-element {
+  /* height: 46px; */
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.wraper {
+  height: 400px;
+  width: 400px;
+  position: relative;
+  background-color: lightslategray;
+}
+.child-box {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.child-box2 {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  position: absolute;
+  top: 100px;
+  right: 150px;
+  z-index: 3;
+}
+
+.descr-box {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.title-image {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  color: red;
+}
+.image-wraper {
+  position: relative;
+  display: inline-block;
+}
+
+/* icons */
+.fa-facebook {
+  color: blue;
+  font-size: 35px;
+}
+.yout-icon {
+  color: red;
+  font-size: 35px;
+}
